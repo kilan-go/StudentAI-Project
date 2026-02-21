@@ -1,0 +1,19 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore Environment Variables (Security)
+.env
+backend/.env
+
+# Ignore Python specific
+__pycache__/
+*.py[cod]
+backend/venv/
+backend/env/
+
+# Ignore Node/Mobile specific
+node_modules/
+mobile/node_modules/
+.expo/
+dist/
+web-build/
