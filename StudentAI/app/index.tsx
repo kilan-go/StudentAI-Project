@@ -4,7 +4,7 @@ import * as DocumentPicker from 'expo-document-picker';
 import { useStore } from '../src/store/store';
 
 // CHANGE THIS TO YOUR PYTHON SERVER URL
-const API_URL = process.env.EXPO_PUBLIC_API_URL!;
+const API_URL = 'https://studentai-yl16.onrender.com'; // Example
 
 export default function ChatScreen() {
     const { profile, isGuest, user, signOut } = useStore();
