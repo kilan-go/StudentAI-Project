@@ -17,3 +17,6 @@ mobile/node_modules/
 .expo/
 dist/
 web-build/
+
+# secrets
+web/.streamlit/secrets.toml
