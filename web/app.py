@@ -5,8 +5,8 @@ import time
 
 # --- CONFIGURATION ---
 # REPLACE WITH YOUR ACTUAL KEYS OR USE st.secrets
-SUPABASE_URL = st.secrets["SUPABASE_URL"] if "SUPABASE_URL" in st.secrets else "https://zbgdzdytjutujkpdrkzu.supabase.co"
-SUPABASE_KEY = st.secrets["SUPABASE_KEY"] if "SUPABASE_KEY" in st.secrets else "sb_publishable_aeOh1O1s1R9ErVtbxY4uKQ_t4RGCRPF"
+SUPABASE_URL = st.secrets["SUPABASE_URL"] if "SUPABASE_URL" in st.secrets else ""
+SUPABASE_KEY = st.secrets["SUPABASE_KEY"] if "SUPABASE_KEY" in st.secrets else ""
 
 # REPLACE WITH YOUR RENDER BACKEND URL (No trailing slash)
 API_URL = "https://studentai-yl16.onrender.com"
